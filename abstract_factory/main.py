@@ -6,12 +6,12 @@ e coordenar a criação dos componentes de interface, recibo e transação de ac
 O sistema utiliza o padrão Abstract Factory para gerar os componentes específicos para cada banco (A ou B).
 
 Funções:
-    main(): Função principal que inicializa a fábrica de componentes, cria os objetos de interface, recibo e transação 
+    main(): Função principal que inicializa a factory de componentes, cria os objetos de interface, recibo e transação 
     com base no banco selecionado, e inicia o controlador do caixa eletrônico para realizar as operações.
 
 Dependências:
     controllers.caixa_controller: Controlador que gerencia o fluxo do caixa eletrônico.
-    factory.caixa_eletronico_factory: Fábrica responsável por criar componentes específicos para cada banco.
+    factory.caixa_eletronico_factory: Factory responsável por criar componentes específicos para cada banco.
     
 Como usar:
     O banco pode ser escolhido alterando a variável `banco_escolhido`. Atualmente está configurado para "A", 
